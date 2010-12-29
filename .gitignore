@@ -1,0 +1,6 @@
+*.o
+*.so
+*~
+ext/Makefile
+ext/mkmf.log
+
