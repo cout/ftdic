@@ -141,7 +141,7 @@ static VALUE ftdi_context_write_data(VALUE self, VALUE v_str)
   return Qnil;
 }
 
-void Init_ftdi()
+void Init_ftdic()
 {
   rb_mFtdiC = rb_define_module("FtdiC");
 
