@@ -1,7 +1,7 @@
 #include <ftdi.h>
 #include <ruby.h>
 
-static VALUE rb_mFtdiCC;
+static VALUE rb_mFtdiC;
 static VALUE rb_cFtdi_Context;
 
 static void check_ftdi_result(struct ftdi_context * ctx, int result)
