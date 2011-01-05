@@ -123,7 +123,7 @@ static VALUE ftdi_context_read_data(VALUE self, VALUE v_size)
 
   RSTRING(v_buf)->len = result;
 
-  return Qnil;
+  return v_buf;
 }
 
 static VALUE ftdi_context_write_data(VALUE self, VALUE v_str)
