@@ -1,5 +1,6 @@
 *.o
 *.so
+.*.swp
 *~
 ext/Makefile
 ext/mkmf.log
